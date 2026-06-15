@@ -5,14 +5,23 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "db:init": "tsx scripts/db-init.ts",
+    "cron": "tsx scripts/cron.ts",
+    "analyze": "tsx scripts/runAnalysis.ts",
+    "capture:options": "tsx scripts/captureOptions.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",
+    "axios": "^1.14.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "dotenv": "^17.4.0",
     "lucide-react": "^1.7.0",
     "next": "16.2.2",
+    "node-cron": "^4.2.1",
+    "pg": "^8.20.0",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "shadcn": "^4.1.2",
@@ -22,9 +31,12 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
+    "@types/node-cron": "^3.0.11",
+    "@types/pg": "^8.20.0",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "tailwindcss": "^4",
+    "tsx": "^4.21.0",
     "typescript": "^5"
   }
 }

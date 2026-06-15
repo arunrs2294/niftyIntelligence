@@ -1,0 +1,32 @@
+[
+  {
+    "name": "RBI MPC Policy Decision",
+    "date": "2025-06-06",
+    "impact": "HIGH"
+  },
+  {
+    "name": "India CPI Inflation Data",
+    "date": "2025-05-12",
+    "impact": "MEDIUM"
+  },
+  {
+    "name": "India GDP Q4 Data",
+    "date": "2025-05-30",
+    "impact": "HIGH"
+  },
+  {
+    "name": "US FOMC Meeting Decision",
+    "date": "2025-05-07",
+    "impact": "HIGH"
+  },
+  {
+    "name": "Nifty F&O Expiry (Monthly)",
+    "date": "2025-04-24",
+    "impact": "MEDIUM"
+  },
+  {
+    "name": "India IIP Data",
+    "date": "2025-05-12",
+    "impact": "MEDIUM"
+  }
+]
