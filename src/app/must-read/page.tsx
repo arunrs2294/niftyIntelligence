@@ -3,16 +3,13 @@ import { CommandmentGrid } from '@/components/CommandmentGrid';
 
 const COMMANDMENTS = [
   // PSYCHOLOGY
-  { roman: 'I',     title: 'WATCH YOUR MIND',                                   tag: 'PSYCHOLOGY', body: 'Your mind is your first opponent — before the chart, before the price. It will lie. Question it before you trade.' },
-  { roman: 'XIII',  title: 'NAME YOUR FEARS — OR THEY WILL BLIND YOU',          tag: 'PSYCHOLOGY', body: 'Losing money. Being wrong. Say them out loud. An unnamed fear narrows your entire vision — name it, and you take back control.' },
-  { roman: 'XX',    title: 'THE MIND WILL LIE TO PROTECT ITSELF',               tag: 'PSYCHOLOGY', body: 'Your mind will manufacture reasons to hold a losing trade. The defense attorney inside your head is your greatest enemy — fire it before you trade.' },
+  { roman: 'I',     title: 'WATCH YOUR MIND',                                   tag: 'PSYCHOLOGY', body: 'Your mind is your first opponent — before the chart, before the price. It will lie to protect itself, manufacturing reasons to hold a losing trade. Name your fears — losing money, being wrong — say them out loud. An unnamed fear blinds you; a named one you can control. Question your mind before you trade.' },
   // MINDSET
   { roman: 'XIV',   title: 'EVERY TRADE IS WRONG UNTIL THE MARKET PROVES IT RIGHT', tag: 'MINDSET', body: 'Enter skeptically. Your analysis is a hypothesis — not a fact. A level only your mind has confirmed is a trap.' },
   { roman: 'X',     title: 'THE NEXT TRADE IS ALWAYS COMING',                   tag: 'MINDSET',    body: 'Missing this setup is not a loss. Chasing a move that already happened is panic dressed as opportunity — let it go.' },
-  { roman: 'III',   title: 'EXPECT DISCOMFORT',                                 tag: 'MINDSET',    body: 'Discomfort is not a warning to exit — it is confirmation you are operating at the edge of discipline. Comfortable traders become ex-traders.' },
   // EXECUTION
   { roman: 'IV',    title: 'ADD ONLY WHEN RIGHT',                               tag: 'EXECUTION',  body: 'Scale in only after price confirms your thesis. A winning trade earns additions. A losing trade earns an exit.' },
-  { roman: 'XVII',  title: 'NOT TAKING A TRADE IS A TRADE',                     tag: 'EXECUTION',  body: 'Sitting out is an active, high-discipline decision. There is no rule that says you must trade today.' },
+  { roman: 'XVII',  title: 'NOT TAKING A TRADE IS A TRADE',                     tag: 'EXECUTION',  body: 'Sitting out is an active, high-discipline decision. There is no rule that says you must trade today. Define your no-trade zones before the session — the chop between key levels, the ambiguous middle ground where neither side has conviction. Mark these zones on your chart. When price is inside them, your job is to do nothing. Absolute nothing. No entries, no adjustments, no watching for "just one more candle." Inaction inside a no-trade zone is not weakness — it is the trade.' },
   { roman: 'XIX',   title: 'JUST FOLLOW THE MARKET',                            tag: 'EXECUTION',  body: 'Not your opinion. Not what it should do. What the market IS doing — right now — in front of your eyes. That is your only instruction.' },
   { roman: 'XXI',   title: 'HOPE WITH WINNERS. FEAR WITH LOSERS.',              tag: 'EXECUTION',  body: 'Most traders cut winners out of fear and hold losers out of hope. Invert this completely — fear in a losing trade is your most precise signal.' },
   { roman: 'XXII',  title: 'EACH CANDLE IS A VERDICT',                          tag: 'EXECUTION',  body: 'At every candle close, ask: is my edge still here? Your analysis was a hypothesis — each candle is the market\'s verdict. If it contradicts your thesis, exit.' },
@@ -55,7 +52,7 @@ export default function MustReadPage() {
             BE A MISSILE
           </h1>
           <p className="text-zinc-500 text-sm tracking-widest uppercase">
-            ⚔ &nbsp; Eighteen Commandments &nbsp; ⚔
+            ⚔ &nbsp; Sixteen Commandments &nbsp; ⚔
           </p>
           <p className="text-zinc-300 text-lg max-w-lg mx-auto leading-relaxed pt-1">
             Read this before every session. Not as a reminder — as a declaration.
