@@ -49,14 +49,10 @@ export default function MustReadPage() {
             Pre-Market Mental Preparation
           </p>
           <h1 className="text-6xl sm:text-8xl font-black tracking-tight text-white">
-            BE A MISSILE
+            THE WAIT IS THE WORK
           </h1>
-          <p className="text-zinc-500 text-sm tracking-widest uppercase">
-            ⚔ &nbsp; Sixteen Commandments &nbsp; ⚔
-          </p>
           <p className="text-zinc-300 text-lg max-w-lg mx-auto leading-relaxed pt-1">
-            Read this before every session. Not as a reminder — as a declaration.
-            The market does not care about your feelings. Be precise. Be ruthless. Be ready.
+            The market does not care about you. Be patient, be decisive, be precise.
           </p>
         </div>
       </div>
