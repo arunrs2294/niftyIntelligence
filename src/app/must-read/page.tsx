@@ -87,7 +87,7 @@ export default function MustReadPage() {
       <div className="max-w-5xl mx-auto px-6 py-10">
         <div className="flex items-center justify-between mb-8">
           <h2 className="text-2xl font-black tracking-widest text-zinc-100 uppercase">
-            The Commandments
+            Critical — Must Read
           </h2>
           <span />
         </div>
